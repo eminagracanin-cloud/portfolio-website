@@ -1,170 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Emina Gracanin | Data Science & Applied AI</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <meta
         name="description"
-        content="Portfolio of Emina Gracanin — Business Data Science student working with applied AI, data science, automation, system integrations and production-oriented solutions."
+        content="Portfolio of Emina Gracanin — Business Data Science student working with applied AI, machine learning, automation and business systems."
     >
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>
+        Emina Gracanin | Data Science & Applied AI
+    </title>
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
         rel="stylesheet"
     >
 
-    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
 </head>
+
 
 <body>
 
-    <div class="page-layout">
+    <!-- ========================================
+         MOBILE NAVIGATION
+    ========================================= -->
 
-        <!-- ========================================
-             SIDEBAR
-        ========================================= -->
+    <div class="mobile-bar">
 
-        <aside class="sidebar">
+        <a
+            href="#top"
+            class="mobile-brand"
+        >
+            EG
+        </a>
 
-            <div class="sidebar-inner">
+        <button
+            class="mobile-menu-button"
+            id="menuButton"
+            aria-label="Open navigation"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
 
-                <div class="sidebar-top">
-
-                    <img
-                        src="profile.jpg"
-                        alt="Portrait of Emina Gracanin"
-                        class="sidebar-profile"
-                    >
-
-                    <h1>Emina Gracanin</h1>
-
-                    <p class="sidebar-role">
-                        Business Data Science
-                    </p>
-
-                    <p class="sidebar-subtitle">
-                        Applied AI · Data Science · Automation
-                    </p>
+    </div>
 
 
-                    <div class="sidebar-badges">
-                        <span>Python</span>
-                        <span>AI</span>
-                        <span>ML</span>
-                        <span>APIs</span>
-                    </div>
+    <div
+        class="mobile-menu"
+        id="mobileMenu"
+    >
+
+        <div class="mobile-menu-inner">
+
+            <nav>
+
+                <a href="#work">
+                    Work
+                </a>
+
+                <a href="#experience">
+                    Experience
+                </a>
+
+                <a href="#stack">
+                    Stack
+                </a>
+
+                <a href="#education">
+                    Education
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </nav>
 
 
-                    <nav class="sidebar-nav">
+            <div class="mobile-menu-links">
 
-                        <a href="#work">
-                            Selected Work
-                        </a>
+                <a
+                    href="mailto:eminagracanin@icloud.com"
+                >
+                    Email
+                </a>
 
-                        <a href="#capabilities">
-                            Capabilities
-                        </a>
+                <a
+                    href="https://www.linkedin.com/in/emina-gracanin-814145278"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn ↗
+                </a>
 
-                        <a href="#experience">
-                            Experience
-                        </a>
+                <a
+                    href="https://github.com/eminagracanin-cloud"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub ↗
+                </a>
 
-                        <a href="#education">
-                            Education
-                        </a>
+            </div>
 
-                        <a href="#contact">
-                            Contact
-                        </a>
+        </div>
 
-                    </nav>
-
-                </div>
+    </div>
 
 
-                <div class="sidebar-contact">
 
-                    <a href="mailto:eminagracanin@icloud.com">
-                        Email
-                    </a>
+    <!-- ========================================
+         DESKTOP SIDEBAR
+    ========================================= -->
 
-                    <a
-                        href="https://www.linkedin.com/in/emina-gracanin-814145278"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        LinkedIn
-                    </a>
+    <aside class="sidebar">
 
-                    <a
-                        href="https://github.com/eminagracanin-cloud"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        GitHub
-                    </a>
+        <div class="sidebar-top">
+
+            <a
+                href="#top"
+                class="brand-mark"
+            >
+                EG
+            </a>
+
+
+            <div class="sidebar-person">
+
+                <img
+                    src="profile.jpg"
+                    alt="Portrait of Emina Gracanin"
+                >
+
+                <div>
+
+                    <strong>
+                        Emina Gracanin
+                    </strong>
+
+                    <span>
+                        Data Science · Applied AI
+                    </span>
 
                 </div>
 
             </div>
 
-        </aside>
+        </div>
 
+
+        <nav class="desktop-nav">
+
+            <a href="#work">
+                <span>01</span>
+                Selected Work
+            </a>
+
+            <a href="#experience">
+                <span>02</span>
+                Experience
+            </a>
+
+            <a href="#stack">
+                <span>03</span>
+                Technical Stack
+            </a>
+
+            <a href="#education">
+                <span>04</span>
+                Education
+            </a>
+
+            <a href="#contact">
+                <span>05</span>
+                Contact
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+
+            <p>
+                Aalborg, Denmark
+            </p>
+
+            <div>
+
+                <a
+                    href="mailto:eminagracanin@icloud.com"
+                >
+                    Email
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/emina-gracanin-814145278"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn ↗
+                </a>
+
+                <a
+                    href="https://github.com/eminagracanin-cloud"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub ↗
+                </a>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- ========================================
+         MAIN CONTENT
+    ========================================= -->
+
+    <main
+        class="site-main"
+        id="top"
+    >
 
 
         <!-- ========================================
-             MAIN
+             HERO
         ========================================= -->
 
-        <main class="main-content">
+        <section class="hero">
+
+            <div
+                class="hero-status reveal"
+            >
+
+                <span class="status-dot"></span>
+
+                MSc Business Data Science
+                · Aalborg University
+
+            </div>
 
 
-            <!-- ========================================
-                 HERO
-            ========================================= -->
+            <div class="hero-grid">
 
-            <section class="hero-panel">
+                <div class="hero-copy">
 
-                <div class="hero-text">
-
-                    <p class="hero-label">
-                        DATA SCIENCE · APPLIED AI · AUTOMATION
+                    <p class="eyebrow reveal">
+                        DATA SCIENCE · APPLIED AI
                     </p>
 
-                    <h2>
-                        I build data and AI solutions
+
+                    <h1 class="reveal">
+                        Building useful
+                        <span>AI & data systems</span>
                         for real business problems.
-                    </h2>
+                    </h1>
 
-                    <p class="hero-description">
-                        Business Data Science student with hands-on experience
-                        across AI, machine learning, automation, analytics
-                        and business systems.
+
+                    <p class="hero-lead reveal">
+                        I combine data science, business understanding
+                        and system integration to build practical solutions
+                        across AI, machine learning and automation.
                     </p>
 
 
-                    <div class="hero-actions">
+                    <div class="hero-actions reveal">
 
                         <a
                             href="#work"
-                            class="btn btn-primary"
+                            class="button button-dark"
                         >
-                            View Selected Work
+                            View selected work
                         </a>
 
                         <a
                             href="https://github.com/eminagracanin-cloud"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="btn btn-secondary"
+                            class="text-link"
                         >
-                            GitHub
+                            GitHub ↗
                         </a>
 
                     </div>
@@ -172,647 +315,399 @@
                 </div>
 
 
-                <!-- HERO PROOF -->
+                <div class="hero-meta reveal">
 
-                <div class="hero-proof">
+                    <div class="hero-meta-item">
 
-                    <div class="proof-card">
-
-                        <span class="proof-number">
-                            AI
+                        <span>
+                            Current role
                         </span>
 
-                        <span class="proof-label">
-                            Applied AI & LLM integrations
-                        </span>
+                        <strong>
+                            Revenue Assurance &
+                            Billing Analyst
+                        </strong>
 
-                    </div>
-
-
-                    <div class="proof-card">
-
-                        <span class="proof-number">
-                            ML
-                        </span>
-
-                        <span class="proof-label">
-                            Predictive modelling & pipelines
-                        </span>
-
-                    </div>
-
-
-                    <div class="proof-card">
-
-                        <span class="proof-number">
-                            API
-                        </span>
-
-                        <span class="proof-label">
-                            System & workflow integrations
-                        </span>
-
-                    </div>
-
-
-                    <div class="proof-card">
-
-                        <span class="proof-number">
-                            BI
-                        </span>
-
-                        <span class="proof-label">
-                            Business analytics & automation
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-
-
-            <!-- ========================================
-                 SHORT INTRO
-            ========================================= -->
-
-            <section class="intro-strip">
-
-                <p>
-                    I work at the intersection of
-                    <strong>business, data and technology</strong> —
-                    building solutions with Python, AI tools,
-                    machine learning, APIs and automation.
-                </p>
-
-            </section>
-
-
-
-            <!-- ========================================
-                 SELECTED WORK
-            ========================================= -->
-
-            <section
-                id="work"
-                class="content-section"
-            >
-
-                <div class="section-heading">
-
-                    <div>
-
-                        <p class="section-label">
-                            Selected Work
+                        <p>
+                            Trackunit
                         </p>
 
-                        <h2>
-                            Projects
-                        </h2>
+                    </div>
+
+
+                    <div class="hero-meta-item">
+
+                        <span>
+                            Next
+                        </span>
+
+                        <strong>
+                            Data Science Intern
+                        </strong>
+
+                        <p>
+                            Sep 2026 — Jan 2027
+                        </p>
 
                     </div>
 
-                    <p class="section-intro">
-                        Selected projects demonstrating applied AI,
-                        product thinking and technical implementation.
+
+                    <div class="hero-meta-item">
+
+                        <span>
+                            Focus
+                        </span>
+
+                        <strong>
+                            Applied AI · ML
+                        </strong>
+
+                        <p>
+                            Systems · Automation
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================
+             SELECTED WORK
+        ========================================= -->
+
+        <section
+            class="section"
+            id="work"
+        >
+
+            <header class="section-header reveal">
+
+                <div>
+
+                    <p class="section-index">
+                        01
                     </p>
+
+                    <h2>
+                        Selected Work
+                    </h2>
 
                 </div>
 
 
+                <p>
+                    A selection of projects where the output
+                    can be viewed directly.
+                </p>
 
-                <!-- ========================================
-                     PROJECT 1
-                ========================================= -->
+            </header>
 
-                <article class="project-card project-featured">
 
-                    <div class="project-image-wrap">
 
-                        <img
-                            src="daarg.png"
-                            alt="DAARG AI governance application"
-                        >
+            <!-- PROJECT 01 -->
 
+            <article class="project reveal">
+
+                <a
+                    href="https://daarg-risk-governance-ali-amalie-emina-group4.streamlit.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-visual"
+                >
+
+                    <img
+                        src="daarg.png"
+                        alt="DAARG AI governance application"
+                    >
+
+                    <span class="project-visual-link">
+                        View live project ↗
+                    </span>
+
+                </a>
+
+
+                <div class="project-info">
+
+                    <div class="project-number">
+                        01 / 02
                     </div>
 
 
-                    <div class="project-content">
+                    <div class="project-heading">
 
-                        <div class="project-topline">
-
-                            <p class="project-number">
-                                01
-                            </p>
-
-                            <p class="project-type">
-                                AI Governance · Streamlit
-                            </p>
-
-                        </div>
-
+                        <p>
+                            AI GOVERNANCE · STREAMLIT
+                        </p>
 
                         <h3>
                             DAARG
                         </h3>
 
-                        <p class="project-subtitle">
+                        <span>
                             Danish Adaptive AI Risk Governance
-                        </p>
-
-
-                        <p class="project-description">
-                            Interactive application supporting structured
-                            AI risk assessment and governance decisions.
-                        </p>
-
-
-                        <div class="project-evidence">
-
-                            <div class="evidence-item">
-
-                                <span class="evidence-label">
-                                    BUILT
-                                </span>
-
-                                <p>
-                                    Interactive AI governance
-                                    and risk-assessment application
-                                </p>
-
-                            </div>
-
-
-                            <div class="evidence-item">
-
-                                <span class="evidence-label">
-                                    FOCUS
-                                </span>
-
-                                <p>
-                                    AI governance, structured risk evaluation
-                                    and decision support
-                                </p>
-
-                            </div>
-
-
-                            <div class="evidence-item">
-
-                                <span class="evidence-label">
-                                    OUTPUT
-                                </span>
-
-                                <p>
-                                    Working Streamlit application
-                                    with public demo and GitHub repository
-                                </p>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="tech-stack">
-
-                            <span>Python</span>
-                            <span>Streamlit</span>
-                            <span>AI Governance</span>
-                            <span>Risk Assessment</span>
-
-                        </div>
-
-
-                        <div class="project-actions">
-
-                            <a
-                                href="https://daarg-risk-governance-ali-amalie-emina-group4.streamlit.app/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="btn btn-primary"
-                            >
-                                Live Demo
-                            </a>
-
-                            <a
-                                href="https://github.com/eminagracanin-cloud/daarg-risk-governance"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="btn btn-secondary"
-                            >
-                                View GitHub
-                            </a>
-
-                        </div>
+                        </span>
 
                     </div>
 
-                </article>
+
+                    <p class="project-summary">
+                        A working application for structured AI risk
+                        assessment and governance decision support.
+                    </p>
 
 
+                    <dl class="project-details">
 
-                <!-- ========================================
-                     PROJECT 2
-                ========================================= -->
+                        <div>
 
-                <article class="project-card">
+                            <dt>
+                                Deliverable
+                            </dt>
 
-                    <div class="project-image-wrap">
+                            <dd>
+                                Interactive deployed application
+                            </dd>
 
-                        <img
-                            src="mathapp.png"
-                            alt="Mathematics learning application"
+                        </div>
+
+
+                        <div>
+
+                            <dt>
+                                Focus
+                            </dt>
+
+                            <dd>
+                                AI governance · Risk assessment
+                            </dd>
+
+                        </div>
+
+
+                        <div>
+
+                            <dt>
+                                Built with
+                            </dt>
+
+                            <dd>
+                                Python · Streamlit
+                            </dd>
+
+                        </div>
+
+                    </dl>
+
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://daarg-risk-governance-ali-amalie-emina-group4.streamlit.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
+                            Live demo ↗
+                        </a>
 
-                    </div>
-
-
-                    <div class="project-content">
-
-                        <div class="project-topline">
-
-                            <p class="project-number">
-                                02
-                            </p>
-
-                            <p class="project-type">
-                                Product Development · Streamlit
-                            </p>
-
-                        </div>
-
-
-                        <h3>
-                            Mathematics Learning App
-                        </h3>
-
-
-                        <p class="project-description">
-                            Interactive learning platform designed to support
-                            mathematics exam preparation through structured
-                            notes, exercises, quizzes and repetition.
-                        </p>
-
-
-                        <div class="project-evidence">
-
-                            <div class="evidence-item">
-
-                                <span class="evidence-label">
-                                    BUILT
-                                </span>
-
-                                <p>
-                                    Interactive educational application
-                                    with multiple learning flows
-                                </p>
-
-                            </div>
-
-
-                            <div class="evidence-item">
-
-                                <span class="evidence-label">
-                                    PRODUCT
-                                </span>
-
-                                <p>
-                                    Notes, quizzes, exercises
-                                    and repetition features
-                                </p>
-
-                            </div>
-
-
-                            <div class="evidence-item">
-
-                                <span class="evidence-label">
-                                    OUTPUT
-                                </span>
-
-                                <p>
-                                    Functional deployed application
-                                    with live demo
-                                </p>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="tech-stack">
-
-                            <span>Python</span>
-                            <span>Streamlit</span>
-                            <span>UI Logic</span>
-                            <span>Interactive Learning</span>
-
-                        </div>
-
-
-                        <div class="project-actions">
-
-                            <a
-                                href="https://matematik-a-emina.streamlit.app/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="btn btn-primary"
-                            >
-                                Live Demo
-                            </a>
-
-                            <a
-                                href="https://github.com/eminagracanin-cloud/matematik-a-app"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="btn btn-secondary"
-                            >
-                                View GitHub
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-            </section>
-
-
-
-            <!-- ========================================
-                 CAPABILITIES
-            ========================================= -->
-
-            <section
-                id="capabilities"
-                class="content-section"
-            >
-
-                <div class="section-heading">
-
-                    <div>
-
-                        <p class="section-label">
-                            Technical Profile
-                        </p>
-
-                        <h2>
-                            Capabilities
-                        </h2>
+                        <a
+                            href="https://github.com/eminagracanin-cloud/daarg-risk-governance"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Source code ↗
+                        </a>
 
                     </div>
 
                 </div>
 
+            </article>
 
-                <div class="capability-grid">
 
 
-                    <!-- AI -->
+            <!-- PROJECT 02 -->
 
-                    <article class="capability-card">
+            <article class="project reveal">
 
-                        <span class="capability-index">
-                            01
-                        </span>
+                <a
+                    href="https://matematik-a-emina.streamlit.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-visual"
+                >
 
-                        <h3>
-                            Applied AI
-                        </h3>
+                    <img
+                        src="mathapp.png"
+                        alt="Mathematics Learning App"
+                    >
+
+                    <span class="project-visual-link">
+                        View live project ↗
+                    </span>
+
+                </a>
+
+
+                <div class="project-info">
+
+                    <div class="project-number">
+                        02 / 02
+                    </div>
+
+
+                    <div class="project-heading">
 
                         <p>
-                            Building AI-enabled workflows,
-                            LLM integrations and practical
-                            business solutions.
+                            PRODUCT DEVELOPMENT · STREAMLIT
                         </p>
 
-                        <div class="tech-stack">
+                        <h3>
+                            Mathematics
+                            Learning App
+                        </h3>
 
-                            <span>Claude</span>
-                            <span>Claude MCP</span>
-                            <span>OpenAI</span>
-                            <span>ChatGPT</span>
-                            <span>LLM Integration</span>
-                            <span>Prompt Engineering</span>
+                    </div>
+
+
+                    <p class="project-summary">
+                        An interactive learning product designed
+                        around exam preparation, exercises,
+                        quizzes and repetition.
+                    </p>
+
+
+                    <dl class="project-details">
+
+                        <div>
+
+                            <dt>
+                                Deliverable
+                            </dt>
+
+                            <dd>
+                                Functional deployed application
+                            </dd>
 
                         </div>
 
-                    </article>
 
+                        <div>
 
+                            <dt>
+                                Focus
+                            </dt>
 
-                    <!-- DATA SCIENCE -->
-
-                    <article class="capability-card">
-
-                        <span class="capability-index">
-                            02
-                        </span>
-
-                        <h3>
-                            Data Science
-                        </h3>
-
-                        <p>
-                            Developing analytical and machine-learning
-                            workflows using Python and structured data.
-                        </p>
-
-                        <div class="tech-stack">
-
-                            <span>Python</span>
-                            <span>SQL</span>
-                            <span>Predictive Modelling</span>
-                            <span>Supervised ML</span>
-                            <span>Unsupervised ML</span>
-                            <span>Feature Engineering</span>
+                            <dd>
+                                Product logic · Interactive learning
+                            </dd>
 
                         </div>
 
-                    </article>
 
+                        <div>
 
+                            <dt>
+                                Built with
+                            </dt>
 
-                    <!-- SYSTEMS -->
-
-                    <article class="capability-card">
-
-                        <span class="capability-index">
-                            03
-                        </span>
-
-                        <h3>
-                            Integrations & Automation
-                        </h3>
-
-                        <p>
-                            Connecting systems, APIs and workflows
-                            to reduce manual processes.
-                        </p>
-
-                        <div class="tech-stack">
-
-                            <span>APIs</span>
-                            <span>Workato</span>
-                            <span>MCP</span>
-                            <span>Workflow Design</span>
-                            <span>System Integration</span>
+                            <dd>
+                                Python · Streamlit
+                            </dd>
 
                         </div>
 
-                    </article>
+                    </dl>
 
 
+                    <div class="project-links">
 
-                    <!-- ENGINEERING -->
+                        <a
+                            href="https://matematik-a-emina.streamlit.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Live demo ↗
+                        </a>
 
-                    <article class="capability-card">
-
-                        <span class="capability-index">
-                            04
-                        </span>
-
-                        <h3>
-                            Data & ML Engineering
-                        </h3>
-
-                        <p>
-                            Structuring data and machine-learning
-                            workflows with production use in mind.
-                        </p>
-
-                        <div class="tech-stack">
-
-                            <span>Data Pipelines</span>
-                            <span>ML Pipelines</span>
-                            <span>Docker</span>
-                            <span>Git</span>
-                            <span>GitHub</span>
-                            <span>VS Code</span>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- ANALYTICS -->
-
-                    <article class="capability-card">
-
-                        <span class="capability-index">
-                            05
-                        </span>
-
-                        <h3>
-                            Analytics
-                        </h3>
-
-                        <p>
-                            Translating operational and financial
-                            data into structured reporting
-                            and decision support.
-                        </p>
-
-                        <div class="tech-stack">
-
-                            <span>Power BI</span>
-                            <span>Power Query</span>
-                            <span>Reporting</span>
-                            <span>Business Analytics</span>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- BUSINESS SYSTEMS -->
-
-                    <article class="capability-card">
-
-                        <span class="capability-index">
-                            06
-                        </span>
-
-                        <h3>
-                            Business Systems
-                        </h3>
-
-                        <p>
-                            Hands-on experience working across
-                            core finance and customer platforms.
-                        </p>
-
-                        <div class="tech-stack">
-
-                            <span>NetSuite ERP</span>
-                            <span>Salesforce</span>
-                            <span>Kolleno</span>
-                            <span>Intercom</span>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </section>
-
-
-
-            <!-- ========================================
-                 EXPERIENCE
-            ========================================= -->
-
-            <section
-                id="experience"
-                class="content-section"
-            >
-
-                <div class="section-heading">
-
-                    <div>
-
-                        <p class="section-label">
-                            Experience
-                        </p>
-
-                        <h2>
-                            Professional Journey
-                        </h2>
+                        <a
+                            href="https://github.com/eminagracanin-cloud/matematik-a-app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Source code ↗
+                        </a>
 
                     </div>
 
                 </div>
 
+            </article>
+
+        </section>
 
 
-                <div class="experience-list">
+
+        <!-- ========================================
+             EXPERIENCE
+        ========================================= -->
+
+        <section
+            class="section"
+            id="experience"
+        >
+
+            <header class="section-header reveal">
+
+                <div>
+
+                    <p class="section-index">
+                        02
+                    </p>
+
+                    <h2>
+                        Experience
+                    </h2>
+
+                </div>
+
+            </header>
 
 
-                    <!-- INTERNSHIP -->
-
-                    <article class="experience-card">
-
-                        <div class="experience-meta">
-
-                            <p class="timeline-date">
-                                SEP 2026 — JAN 2027
-                            </p>
-
-                            <span class="status-badge">
-                                Upcoming
-                            </span>
-
-                        </div>
+            <div class="experience-list">
 
 
-                        <div class="experience-content">
+                <!-- INTERNSHIP -->
 
-                            <p class="company">
+                <article class="experience-item reveal">
+
+                    <div class="experience-date">
+
+                        <span>
+                            UPCOMING
+                        </span>
+
+                        <p>
+                            Sep 2026
+                            <br>
+                            —
+                            <br>
+                            Jan 2027
+                        </p>
+
+                    </div>
+
+
+                    <div class="experience-main">
+
+                        <div class="experience-title">
+
+                            <p>
                                 Trackunit
                             </p>
 
@@ -820,220 +715,358 @@
                                 Data Science Intern
                             </h3>
 
-
-                            <p class="experience-summary">
-                                Production-oriented Data Science internship
-                                focused on building an end-to-end system.
-                            </p>
-
-
-                            <div class="experience-points">
-
-                                <p>
-                                    <strong>Build:</strong>
-                                    production-ready data science system
-                                </p>
-
-                                <p>
-                                    <strong>AI:</strong>
-                                    Claude MCP and AI-enabled system integration
-                                </p>
-
-                                <p>
-                                    <strong>ML:</strong>
-                                    predictive modelling and model workflows
-                                </p>
-
-                                <p>
-                                    <strong>Engineering:</strong>
-                                    Python, Docker and data / ML pipelines
-                                </p>
-
-                                <p>
-                                    <strong>Integration:</strong>
-                                    APIs and connections to other business systems
-                                </p>
-
-                            </div>
-
-
-                            <div class="tech-stack">
-
-                                <span>Python</span>
-                                <span>Claude MCP</span>
-                                <span>Docker</span>
-                                <span>Predictive Modelling</span>
-                                <span>ML Pipelines</span>
-                                <span>APIs</span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- TRACKUNIT -->
-
-                    <article class="experience-card">
-
-                        <div class="experience-meta">
-
-                            <p class="timeline-date">
-                                JUN 2023 — PRESENT
-                            </p>
-
                         </div>
 
 
-                        <div class="experience-content">
+                        <p class="experience-description">
+                            Internship focused on developing
+                            a production-ready data science system.
+                        </p>
 
-                            <p class="company">
+
+                        <ul class="experience-highlights">
+
+                            <li>
+                                Predictive modelling
+                            </li>
+
+                            <li>
+                                Python development
+                            </li>
+
+                            <li>
+                                Claude MCP integration
+                            </li>
+
+                            <li>
+                                Docker
+                            </li>
+
+                            <li>
+                                Data & ML pipelines
+                            </li>
+
+                            <li>
+                                API and system integrations
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- TRACKUNIT -->
+
+                <article class="experience-item reveal">
+
+                    <div class="experience-date">
+
+                        <p>
+                            Jun 2023
+                            <br>
+                            —
+                            <br>
+                            Present
+                        </p>
+
+                    </div>
+
+
+                    <div class="experience-main">
+
+                        <div class="experience-title">
+
+                            <p>
                                 Trackunit
                             </p>
 
                             <h3>
-                                Revenue Assurance & Billing Analyst
+                                Revenue Assurance &
+                                Billing Analyst
                             </h3>
 
-
-                            <p class="experience-promotion">
-                                Promoted from Revenue & Billing Specialist
-                                in January 2026.
-                            </p>
-
-
-                            <p class="experience-summary">
-                                Working across finance, data and systems
-                                to improve operational workflows
-                                and automation.
-                            </p>
-
-
-                            <div class="experience-points">
-
-                                <p>
-                                    <strong>Automation:</strong>
-                                    built and optimized workflows
-                                    using Workato and Kolleno
-                                </p>
-
-                                <p>
-                                    <strong>Systems:</strong>
-                                    work across NetSuite ERP,
-                                    Salesforce and Intercom
-                                </p>
-
-                                <p>
-                                    <strong>Analytics:</strong>
-                                    support reporting and
-                                    data-driven decision-making
-                                </p>
-
-                                <p>
-                                    <strong>Operations:</strong>
-                                    improve billing workflows
-                                    and cash-flow-related processes
-                                </p>
-
-                            </div>
-
-
-                            <div class="tech-stack">
-
-                                <span>Workato</span>
-                                <span>Kolleno</span>
-                                <span>NetSuite</span>
-                                <span>Salesforce</span>
-                                <span>Intercom</span>
-                                <span>Automation</span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- FARUP -->
-
-                    <article class="experience-card experience-card-small">
-
-                        <div class="experience-meta">
-
-                            <p class="timeline-date">
-                                APR 2022 — JUN 2023
-                            </p>
-
                         </div>
 
 
-                        <div class="experience-content">
+                        <div class="promotion-note">
+                            Promoted from Revenue & Billing Specialist
+                            in January 2026
+                        </div>
 
-                            <p class="company">
+
+                        <p class="experience-description">
+                            Working across finance, data and systems
+                            with a focus on operational improvement,
+                            reporting and automation.
+                        </p>
+
+
+                        <ul class="experience-highlights">
+
+                            <li>
+                                Workato automation
+                            </li>
+
+                            <li>
+                                Kolleno workflows
+                            </li>
+
+                            <li>
+                                NetSuite ERP
+                            </li>
+
+                            <li>
+                                Salesforce
+                            </li>
+
+                            <li>
+                                Intercom
+                            </li>
+
+                            <li>
+                                Business analytics
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- FARUP -->
+
+                <article class="experience-item reveal">
+
+                    <div class="experience-date">
+
+                        <p>
+                            Apr 2022
+                            <br>
+                            —
+                            <br>
+                            Jun 2023
+                        </p>
+
+                    </div>
+
+
+                    <div class="experience-main">
+
+                        <div class="experience-title">
+
+                            <p>
                                 Fårup Sommerland
                             </p>
 
                             <h3>
-                                Shop Assistant → Assisting Shop Manager
+                                Shop Assistant →
+                                Assisting Shop Manager
                             </h3>
-
-
-                            <p class="experience-summary">
-                                Promoted into an assisting management role
-                                with responsibility for daily operations,
-                                training and sales-based product planning.
-                            </p>
 
                         </div>
 
-                    </article>
 
+                        <p class="experience-description">
+                            Progressed into an assisting management role
+                            with responsibility for store operations,
+                            training and sales-based product planning.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================
+             TECHNICAL STACK
+        ========================================= -->
+
+        <section
+            class="section"
+            id="stack"
+        >
+
+            <header class="section-header reveal">
+
+                <div>
+
+                    <p class="section-index">
+                        03
+                    </p>
+
+                    <h2>
+                        Technical Stack
+                    </h2>
 
                 </div>
 
-            </section>
+
+                <p>
+                    Technologies and systems used across
+                    academic and professional work.
+                </p>
+
+            </header>
 
 
+            <div class="stack-list">
 
-            <!-- ========================================
-                 EDUCATION
-            ========================================= -->
 
-            <section
-                id="education"
-                class="content-section"
-            >
+                <div class="stack-row reveal">
 
-                <div class="section-heading">
+                    <p>
+                        AI & LLM
+                    </p>
 
                     <div>
-
-                        <p class="section-label">
-                            Education
-                        </p>
-
-                        <h2>
-                            Academic Background
-                        </h2>
-
+                        <span>Claude</span>
+                        <span>Claude MCP</span>
+                        <span>OpenAI</span>
+                        <span>ChatGPT</span>
+                        <span>LLM Integration</span>
                     </div>
 
                 </div>
 
 
-                <div class="education-grid">
+                <div class="stack-row reveal">
+
+                    <p>
+                        Data Science
+                    </p>
+
+                    <div>
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Predictive Modelling</span>
+                        <span>Supervised ML</span>
+                        <span>Unsupervised ML</span>
+                        <span>Feature Engineering</span>
+                    </div>
+
+                </div>
 
 
-                    <article class="education-card">
+                <div class="stack-row reveal">
 
-                        <p class="timeline-date">
-                            2025 — 2027
-                        </p>
+                    <p>
+                        Engineering
+                    </p>
 
-                        <p class="institution">
+                    <div>
+                        <span>Docker</span>
+                        <span>APIs</span>
+                        <span>Data Pipelines</span>
+                        <span>ML Pipelines</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                    </div>
+
+                </div>
+
+
+                <div class="stack-row reveal">
+
+                    <p>
+                        Automation
+                    </p>
+
+                    <div>
+                        <span>Workato</span>
+                        <span>MCP</span>
+                        <span>Workflow Design</span>
+                        <span>System Integration</span>
+                    </div>
+
+                </div>
+
+
+                <div class="stack-row reveal">
+
+                    <p>
+                        Analytics
+                    </p>
+
+                    <div>
+                        <span>Power BI</span>
+                        <span>Power Query</span>
+                        <span>Reporting</span>
+                        <span>Business Analytics</span>
+                    </div>
+
+                </div>
+
+
+                <div class="stack-row reveal">
+
+                    <p>
+                        Business Systems
+                    </p>
+
+                    <div>
+                        <span>NetSuite ERP</span>
+                        <span>Salesforce</span>
+                        <span>Kolleno</span>
+                        <span>Intercom</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================
+             EDUCATION
+        ========================================= -->
+
+        <section
+            class="section"
+            id="education"
+        >
+
+            <header class="section-header reveal">
+
+                <div>
+
+                    <p class="section-index">
+                        04
+                    </p>
+
+                    <h2>
+                        Education
+                    </h2>
+
+                </div>
+
+            </header>
+
+
+            <div class="education-list">
+
+
+                <article class="education-item reveal">
+
+                    <p class="education-year">
+                        2025 — 2027
+                    </p>
+
+
+                    <div>
+
+                        <p class="education-school">
                             Aalborg University
                         </p>
 
@@ -1041,21 +1074,25 @@
                             MSc in Business Data Science
                         </h3>
 
-                        <p>
+                        <span>
                             Expected graduation June 2027
-                        </p>
+                        </span>
 
-                    </article>
+                    </div>
+
+                </article>
 
 
+                <article class="education-item reveal">
 
-                    <article class="education-card">
+                    <p class="education-year">
+                        2022 — 2025
+                    </p>
 
-                        <p class="timeline-date">
-                            2022 — 2025
-                        </p>
 
-                        <p class="institution">
+                    <div>
+
+                        <p class="education-school">
                             Aalborg University
                         </p>
 
@@ -1064,133 +1101,125 @@
                             Business Administration
                         </h3>
 
-                    </article>
-
-                </div>
-
-            </section>
-
-
-
-            <!-- ========================================
-                 CERTIFICATION
-            ========================================= -->
-
-            <section class="content-section">
-
-                <div class="section-heading">
-
-                    <div>
-
-                        <p class="section-label">
-                            Certification
-                        </p>
-
-                        <h2>
-                            Additional Credentials
-                        </h2>
-
-                    </div>
-
-                </div>
-
-
-                <article class="credential-card">
-
-                    <div class="credential-image">
-
-                        <img
-                            src="EBBD.png"
-                            alt="European Business Baccalaureate Diploma certificate"
-                        >
-
-                    </div>
-
-
-                    <div class="credential-text">
-
-                        <p class="project-type">
-                            Certificate of Excellence
-                        </p>
-
-                        <h3>
-                            European Business
-                            Baccalaureate Diploma
-                        </h3>
-
-                        <p>
-                            European qualification covering
-                            international business, languages,
-                            intercultural competence
-                            and international project work.
-                        </p>
-
                     </div>
 
                 </article>
 
-            </section>
+            </div>
+
+
+            <div class="credential reveal">
+
+                <div class="credential-image">
+
+                    <img
+                        src="EBBD.png"
+                        alt="European Business Baccalaureate Diploma"
+                    >
+
+                </div>
+
+
+                <div class="credential-content">
+
+                    <p class="section-index">
+                        ADDITIONAL CREDENTIAL
+                    </p>
+
+                    <h3>
+                        European Business
+                        Baccalaureate Diploma
+                    </h3>
+
+                    <p>
+                        Certificate of excellence covering
+                        international business, languages,
+                        intercultural competence and
+                        international project work.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
 
-            <!-- ========================================
-                 CONTACT
-            ========================================= -->
+        <!-- ========================================
+             CONTACT
+        ========================================= -->
 
-            <section
-                id="contact"
-                class="contact-section"
-            >
+        <footer
+            class="contact"
+            id="contact"
+        >
 
-                <p class="section-label">
-                    Contact
+            <div class="contact-main reveal">
+
+                <p class="section-index">
+                    05 · CONTACT
                 </p>
 
                 <h2>
-                    Let’s connect.
+                    Interested in working
+                    <span>together?</span>
                 </h2>
 
+
+                <a
+                    href="mailto:eminagracanin@icloud.com"
+                    class="contact-email"
+                >
+                    eminagracanin@icloud.com
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+
+            <div class="contact-bottom">
+
                 <p>
-                    Interested in Data Science,
-                    Applied AI and AI Engineering opportunities.
+                    Emina Gracanin
                 </p>
 
 
-                <div class="contact-actions">
-
-                    <a
-                        href="mailto:eminagracanin@icloud.com"
-                        class="btn btn-primary"
-                    >
-                        Email Me
-                    </a>
+                <div>
 
                     <a
                         href="https://www.linkedin.com/in/emina-gracanin-814145278"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="btn btn-secondary"
                     >
-                        LinkedIn
+                        LinkedIn ↗
                     </a>
 
                     <a
                         href="https://github.com/eminagracanin-cloud"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="btn btn-secondary"
                     >
-                        GitHub
+                        GitHub ↗
                     </a>
 
                 </div>
 
-            </section>
+
+                <p>
+                    <span id="currentYear"></span>
+                </p>
+
+            </div>
+
+        </footer>
 
 
-        </main>
+    </main>
 
-    </div>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
